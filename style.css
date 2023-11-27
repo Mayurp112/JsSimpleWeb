@@ -30,6 +30,7 @@ html,body{
 }
 
 #nav a{
+    display: inline-block;
     font-weight: 800;
     font-size: 15px;
     text-decoration: none;
@@ -299,7 +300,7 @@ html,body{
 
 }
 #future video{
-    opacity: .1;
+    opacity: 1;
     position: absolute;
 
     width: 100%;

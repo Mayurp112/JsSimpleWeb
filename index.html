@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
@@ -17,19 +19,19 @@
         <div id="home">
             <div id="nav">
                 <div id="nleft">
-                    <a href="#">Home</a>
-                    <a href="#">Product</a>
-                    <a href="#">Contact</a>
+                    <a class="nlink" href="#">Home</a>
+                    <a class="nlink" href="#">Product</a>
+                    <a class="nlink" href="#">Contact</a>
                 </div>
-                <a href="#"> Education </a>
+                <a class="nlink" href="#"> Education </a>
 
                 <div id="nright">
-                    <a href="#">Register</a>
+                    <a class="nlink" href="#">Register</a>
                 </div>
 
             </div>
             <div id="hero">
-                <div id="sastain">
+                <div class="anim2" id="sastain">
                     <h5>.01</h5>
                     <h2>sastainability</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -38,7 +40,7 @@
                     </div>
                 </div>
 
-                <div id="mp">
+                <div class="anim2" id="mp">
                     <div id="headline">
                         <h1>EMPERIR</h1>
                         <h1>INDIAN</h1>
@@ -50,11 +52,13 @@
                         </p>
                     </div>
                 </div>
-                <div id="visit">
+
+                <div class="anim2" id="visit">
                     <div id="circlev"><i class="ri-arrow-down-line"></i></div>
                     <h5>Visit Our Gallery</h5>
 
                 </div>
+                
             </div>
             <div id="motive">
                 <h3> Our Motive</h3>
@@ -95,7 +99,7 @@
 
             </div>
             <div id="future">
-                <video src="./image/back.mp4"></video>
+                <video src="./image/back.mp4" autoplay muted></video>
                 <div id="ftext">
                     <h1>Think Of Future</h1>
                     <button>Join Momentum</button>
@@ -108,6 +112,21 @@
     </div>
 
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--  Gsap is needed for Basic Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <!-- Scroll Trigger is needed for Scroll Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Three.js is needed for 3d Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+    <!-- ControlKit is needed for Debug Panel -->
+    <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
 
 </body>
 
